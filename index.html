@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Perpustakaan UMTAS</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">PERPUS<span><br>UMTAS</span></a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Fasilitas</a>
+      <a href="#products">Layanan</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start -->
+  <section class="hero" id="home">
+    <div class="mask-container">
+      <main class="content">
+        <h1> Perpustakaan Universitas Muhammadiyah <span>Tasikmalaya</span></h1>
+        <p>Cerdas Berkualitas dari Lokal untuk Global</p>
+        <br>NPP: 3278072D0000001</br>
+        <a href="#" class="cta">Selengkapnya</a>
+      </main>
+    </div>
+  </section>
+  <!-- Hero Section end -->
+
+  
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/about.png" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Perpustakaan Universitas Muhammadiyah Tasikmalaya</h3>
+        <p>Perpustakaan Universitas Muhammadiyah Tasikmalaya sudah ada sejak adanya Sekolah Perawat Kesehatan (SPK) dari tahun 1983 lalu 
+          menjadi (AKPER) Akademi Perawat tahun 1996 dan berubah (STIKES) Sekolah Tinggi Kesehatan tahun 2006 hingga menjadi Universitas 
+          Muhammadiyah Tasikmalaya 2015. Perpustakaan sudah mengalami banyak perubahan dari koleksi, staf perpustakaan, perpindahan ruangan 
+          hingga perlengkapan perpustakaan.</p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Menu Section start -->
+  <section id="menu" class="menu">
+    <h2><span>Fasilitas</span> </h2>
+    <p>Perpustakaan UMTAS memiliki koleksi yang lengkap dan mutakhir, mulai dari buku, majalah, jurnal, hingga bahan pustaka digital. Koleksi 
+      tersebut mencakup berbagai bidang ilmu, mulai dari ilmu pengetahuan alam, ilmu sosial, hingga ilmu agama. Perpustakaan juga menyediakan 
+      layanan yang berkualitas, seperti layanan sirkulasi, layanan referensi, dan layanan digital.
+    </p>
+
+    <div class="row">
+      <div class="menu-card">
+        <img src="img/ruangbaca.jpg" alt="Gambar1" class="menu-card-img1">
+        <h3 class="menu-card-title">Ruang Baca</h3>
+        <p>Ruang baca ini memiliki luas sekitar 200 meter persegi dan dapat menampung sekitar 100 orang. Ruang baca ini dilengkapi dengan 
+          koleksi buku, majalah, jurnal, dan bahan pustaka digital yang lengkap.</p>
+      </div>
+
+      <div class="menu-card">
+        <img src="img/diskusi.jpg" alt="Gambar2" class="menu-card-img2">
+        <h3 class="menu-card-title">Ruang Diskusi</h3>
+        <p class="menu-card-price">Ruang diskusi yang diperuntukkan bagi mahasiswa, dosen, dan masyarakat umum yang membutuhkan ketenangan untuk
+           diskusi. Ruang diskusi ini dilengkapi dengan meja dan kursi yang nyaman, papan tulis, dan AC.</p>
+      </div>
+
+      <div class="menu-card">
+        <img src="img/bacaskripsi.jpg" alt="Gambar3" class="menu-card-img3">
+        <h3 class="menu-card-title">Ruang Baca Skripsi</h3>
+        <p class="menu-card-price">Ruang Baca Skripsi adalah ruang baca yang diperuntukkan bagi mahasiswa yang sedang menyusun skripsi. Ruang 
+          baca ini dilengkapi dengan koleksi buku dan jurnal yang berkaitan dengan penelitian skripsi.</p>
+      </div>
+
+      <div class="menu-card">
+        <img src="img/bacadigital.jpg" alt="Gambar4" class="menu-card-img4">
+        <h3 class="menu-card-title">Ruang Baca Digital</h3>
+        <p class="menu-card-price">Ruang Baca Digital adalah ruang baca yang dilengkapi dengan komputer dan akses internet. Ruang baca ini 
+          diperuntukkan bagi mahasiswa, dosen, dan masyarakat umum yang ingin mengakses bahan pustaka digital.</p>
+      </div>
+      
+      <div class="menu-card">
+        <img src="img/loker.jpg" alt="Gambar5" class="menu-card-img5">
+        <h3 class="menu-card-title">Loker</h3>
+        <p class="menu-card-price">Perpustakaan Universitas Muhammadiyah Tasikmalaya (UMTAS) menyediakan loker untuk menyimpan barang-barang 
+          pengunjung perpustakaan, seperti tas, laptop, dan buku. Loker tersebut terletak di dekat ruang baca utama dan ruang diskusi.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section end -->
+
+  <!-- layanan Section start -->
+  <section class="products" id="products">
+    <h2><span>Layanan</span> Kami</h2>
+    <p>Perpustakaan Universitas Muhammadiyah Tasikmalaya memilliki layanan, diantaranya adalah sebagai berikut:</p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+        </div>
+        <div class="product-image">
+          <img src="img/ruangbaca.jpg" alt="Gambar1">
+        </div>
+        <div class="product-content">
+          <h3>Layanan Baca di Tempat</h3>
+          <h4><p>Layanan baca di tempat di Perpustakaan UMTAS bersifat terbuka untuk sivitas UMTAS dan masyarakat umum yang ingin membaca 
+            koleksi di perpustakaan. Perpustakaan UMTAS menyediakan ruang baca di ruang sirkulasi, ruang koleksi khusus (skripsi, tesis dan 
+            disertasi) serta Muhammadiyah Corner.</p></h4>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-icons">
+        </div>
+        <div class="product-image">
+          <img src="img/sirkulasi.jpg" alt="Product 2">
+        </div>
+        <div class="product-content">
+          <h3>Layanan Sirkulasi</h3>
+          <h4><p>Layanan Sirkulasi di Perpustakaan UMTAS merupakan ujung tombak semua layanan yang ada karena bagian sirkulasi berhubungan 
+            dengan masalah administrasi peminjaman dan pengembalian koleksi bahan pustaka. Tujuan layanan sirkulasi ini adalah memperlancar 
+            dan mempermudah proses peminjaman bahan pustaka untuk dibawa pulang oleh pemustaka. Layanan ini hanya diperuntukkan bagi sivitas UMTAS.</p></h4>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <div class="product-icons">
+        </div>
+        <div class="product-image">
+          <img src="img/referensi.jpg" alt="Product 3">
+        </div>
+        <div class="product-content">
+          <h3>Layanan Referensi</h3>
+          <h4><p>Layanan Referensi di Perpustakaan UMTAS merupakan pemberian bantuan kepada pemustaka untuk menemukan informasi dengan cara 
+            menjawab pertanyaan menggunakan koleksi referensi, serta memberikan bimbingan untuk menemukan dan memakai koleksi referensi.</p></h4>
+        </div>
+      </div>
+
+        <div class="product-card">
+          <div class="product-icons">
+          </div>
+          <div class="product-image">
+            <img src="img/koleksi.jpg" alt="Product 4">
+          </div>
+          <div class="product-content">
+            <h3>Layanan Koleksi Khusus</h3>
+            <h4><p>Layanan ini merupakan menyediakan koleksi hasil karya institusi (institutional repository), seperti Laporan Kerja Lapangan, 
+              Karya Tulis Ilmiah, Laporan Tugas Akhir, dan Skripsi. Koleksi yang terdapat di koleksi khusus hanya dapat dibaca di tempat. 
+              Pemustaka dapat memanfaatkan koleksi khusus dengan mengunduh Karya institusi secara online di Repository umtas.</p></h4>
+          </div>
+        </div>
+
+          <div class="product-card">
+            <div class="product-icons">
+            </div>
+            <div class="product-image">
+              <img src="img/bebas.jpg" alt="Product 5">
+            </div>
+            <div class="product-content">
+              <h3>Layanan Bebas Pustaka</h3>
+              <h4><p>Layanan Bebas Pustaka merupakan layanan pembuatan surat bebas pustaka. layanan ini diperuntukkan bagi mahasiswa tingkat 
+                akhir yang akan menjalani sidang tingkat akhir, atau mahasiswa yang akan mengundurkan diri. Syarat permohonan bebas pustaka ini 
+                adalah bebas dari pinjaman dan denda. saat ini mahasiswa bisa mengajukan surat bebas pustaka secara online melalui laman Bebas 
+                Pustaka.</p></h4>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-icons">
+            </div>
+            <div class="product-image">
+              <img src="img/layananonline.jpg" alt="Product 5">
+            </div>
+            <div class="product-content">
+              <h3>Layanan Online</h3>
+              <h4><p>Layanan online merupakan layanan inovasi yang dapat memudahkan sivitas akademika dalam mengakses layanan perpustakaan 
+                secara online.</p></h4>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-icons">
+            </div>
+            <div class="product-image">
+              <img src="img/layananunggah.jpg" alt="Product 5">
+            </div>
+            <div class="product-content">
+              <h3>Layanan Unggah Mandiri Karya Ilmiah</h3>
+              <h4><p>layanan ini diperuntukkan untuk mempermudah mahasiswa tingkat akhir yang sudah menyelesaikan tugas karya ilmiahnya 
+                (KTI/LTA/SKRIPSI) dalam menyerahkan karya tulis ilmiah. Penyerahan karya ilmiah merupakan salah satu persyaratan untuk 
+                mendapatkan surat bebas administrasi perpustakaan yang akan digunakan sebagai syarat pengambilan ijazah.</p></h4>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Products Section end -->
+
+  <!-- Contact Section start -->
+  <section id="contact" class="contact">
+    <h2><span>Kontak</span> Kami</h2>
+
+    <div class="row">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.8533453361924!2d108.22860467359477!3d-7.37032979263894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f578ee32cbd6d%3A0xa9906e898f20b776!2sUniversitas%20Muhammadiyah%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1697977779052!5m2!1sid!2sid" 
+      allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" clas="map"></iframe>
+
+      <form action="">
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" placeholder="nama">
+        </div>
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="text" placeholder="email">
+        </div>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" placeholder="no hp">
+        </div>
+        <button type="submit" class="btn">kirim pesan</button>
+      </form>
+
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="https://www.facebook.com/umtascerdasberkualitas?mibextid=2JQ9oc"><i data-feather="instagram"></i></a>
+      <a href="https://x.com/UMTasik?s=09"><i data-feather="twitter"></i></a>
+      <a href="https://instagram.com/umtas?igshid=NGVhN2U2NjQ0Yg=="><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#product">Layanan</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">PKL UMTAS</a>. | &copy; 2023.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal Box Item Detail start -->
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/ruangbaca.jpg" alt="Product 1">
+        <div class="product-content">
+          <h3>Layanan Baca di Tempat</h3>
+          <p>Layanan baca di tempat di Perpustakaan UMTAS bersifat terbuka untuk sivitas UMTAS dan masyarakat umum yang ingin membaca koleksi 
+            di perpustakaan. Perpustakaan UMTAS menyediakan ruang baca di ruang sirkulasi, ruang koleksi khusus (skripsi, tesis dan disertasi) 
+            serta Muhammadiyah Corner.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="img/ruangbaca.jpg" alt="Product 2">
+        <div class="product-content">
+          <h3>Layanan Sirkulasi</h3>
+          <p>Layanan Sirkulasi di Perpustakaan UMTAS merupakan ujung tombak semua layanan yang ada karena bagian sirkulasi berhubungan dengan
+             masalah administrasi peminjaman dan pengembalian koleksi bahan pustaka.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Box Item Detail end -->
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- My Javascript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
